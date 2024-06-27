@@ -4,13 +4,15 @@ public class MaxRange {
 	   
 	   
 	   
-        System.out.println("Minimum range of byte: " + Byte.MAX_VALUE);
-        System.out.println("Minimum range of short: " + Short.MAX_VALUE);
-        System.out.println("Minimum range of int: " + Integer.MAX_VALUE);
-        System.out.println("Minimum range of long: " + Long.MAX_VALUE);
-        System.out.println("Minimum range of float: " + Float.MAX_VALUE);
-        System.out.println("Minimum range of double: " + Double.MAX_VALUE);
-        System.out.println("Minimum range of char: " + (int) Character.MAX_VALUE);
-		
+        System.out.println("Maximum range of byte: " + (byte) 127);
+        System.out.println("Maximum range of short: " + (short) 32767);
+        System.out.println("Maximum range of int: " + 2147483647);
+        System.out.println("Maximum range of long: " + 9223372036854775807L);
+        
+        System.out.println("Maximum range of double: " + 1.7976931348623157E308);
+        System.out.println("Maximum range of char: " + (char) 65535);
+        System.out.println("Maximum range of boolean: " + true);
     }
 }
+
+
